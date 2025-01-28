@@ -1,0 +1,32 @@
+trim_unused_vars <- function(dt){
+  dt[,.(
+    LOAN_ID
+    ,ACT_PERIOD
+    ,CHANNEL
+    ,SELLER
+    ,SERVICER
+    ,ZIP
+    #
+    ,ORIG_RATE
+    ,CURR_RATE
+    ,LOAN_AGE
+    ,REM_MONTHS
+    ,OLTV
+    ,OCLTV
+    ,NUM_BO
+    ,DTI
+    ,CSCORE_B
+    ,CSCORE_C
+    ,CURR_SCOREB
+    ,CURR_SCOREC
+    ,FIRST_FLAG
+    ,PURPOSE
+    ,PRODUCT
+    ,IO
+    ,PMT_HISTORY
+    ,HOMEREADY_PROGRAM_INDICATOR
+    #
+    ,ARM_5_YR_INDICATOR
+    
+  )]
+}
